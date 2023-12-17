@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-color:  hsl(217, 54%, 11%);
+    padding-top: 5vh;
+}
+.content{
+    background-color: hsl(216, 50%, 16%);
+    width: 320px;
+    height: 525px;
+    margin: 0 auto;
+    margin-top: 55px;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow:  0 0  80px 30px rgba(0, 0, 0, 0.607);
+}
+.content__img{
+    background-image: url(../images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 300px;
+    border-radius: inherit;
+    margin: 0 auto;
+    
+}
+.content__title{
+    color: #fff;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+
+}
+.content__paragrap{
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 5pxpx;
+    
+}
+.content__info{
+    width: 280px;
+    padding: 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-top: 5px;  
+    
+}
+.a{
+    position: relative;
+    left: -12px;
+   
+    
+}
+.a__a{
+    color: aquamarine;
+    position: relative;
+    padding-bottom:10px ;
+    bottom:2px ;
+    left: -12px;
+
+}
+.b__b{
+    position: relative;
+  
+    margin-left: 28%;
+}
+.b{
+    color:hsl(215, 32%, 27%) ;
+    position: relative;
+    width: 18px;
+    top: -2px;
+    
+   
+}
+.connt{
+    display: flex;
+    align-items: center;
+}
+
+
+.content__imgg{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/image-avatar.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+.conntt{
+    padding-top: 5px;
+padding-left: 25px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
